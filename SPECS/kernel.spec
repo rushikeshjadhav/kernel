@@ -22,7 +22,7 @@
 Name: kernel
 License: GPLv2
 Version: 4.4.52
-Release: 4.0.12
+Release: 4.0.13
 ExclusiveArch: x86_64
 ExclusiveOS: Linux
 Summary: The Linux kernel
@@ -686,6 +686,9 @@ fi
 %{_rpmconfigdir}/macros.d/macros.kernel
 
 %changelog
+* Wed Feb 20 2019 Rushikesh Jadhav <rushikesh7@gmail.com> - 4.4.52-4.0.13
+- Changed processor family from "Generic-x86-64" to "Core 2/newer Xeon"
+
 * Fri Aug 10 2018 Simon Rowe <simon.rowe@citrix.com> - 4.4.52-4.0.12
 - CA-295418: Fix initially incorrect GVT-g patch forwardport
 
